@@ -136,7 +136,7 @@ How can we get 3 process doing 2 forks? (Normal expected process when calling th
 #include <unistd.h>
 
 int main(int argc, char **argv) {
-    int id = fork();
+    pid_t id = fork();
     // If we are not in the parent process, then proceed to fork()
     if (id != 0) {
         fork();
