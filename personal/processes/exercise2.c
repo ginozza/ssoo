@@ -25,7 +25,7 @@
 
 int main() {
   pid_t pid;
-  int i, j, k;
+  int i, j;
 
   for(i = 1; i <= 5; i++) {
     pid = fork();
