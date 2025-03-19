@@ -209,7 +209,7 @@ Dentro de las tres áreas principales, consideradas en el diseño del procesador
 
 El hecho de que las memorias sean accesadas por palabras o bloques de memoria más grandes que la unidad de direccionamiento. Se fundamenta en:
 
-- **Diseños arquitectónicos \***
+- Diseños arquitectónicos
 - Proximidad temporal
-- Proximidad espacial 
+- **Proximidad espacial \*** 
 - Proximidad referencial
