@@ -213,3 +213,50 @@ El hecho de que las memorias sean accesadas por palabras o bloques de memoria m�
 - Proximidad temporal
 - **Proximidad espacial \*** 
 - Proximidad referencial
+
+Las arquitecturas RISC han mostrado experimentalmente que pueden llegar a ser mas eficientes que las arquitecturas CISC. ¿Que aspectos le permiten este aumento en la eficiencia? ¿Como se puede explicar el hecho de que actualmente esta no sea la arquitectura dominandte en el mercado?
+
+- R/ La simplicidad de las instrucciones que en muchos casos se ejecutan en un solo ciclo de reloj, permite implementar pipelines mas eficientes, así mismo, la menor complejidad de las instrucciones reduce la cantidad de transistores y recursos dedicados al proceso de decodecodificación, que se traduce a menor consumo energético y capacidad de alcanzar mayores velocidades de reloj. Sin embargo, la madurez del ecosistema CISC lo ha convertido en un ecosistema robusto en el mercado, haciendo dificil reemplazar esta arquitectura.
+
+En algunos sistemas operativos, los servicios de interfaz gráfica (gestión de ventanas, menús, etc...) forman parte del kernel del sistema. Una desventaja de este esquema es:
+
+- a. Suelen ser menos eficientes 
+- b. Suelen tener mala experiencia para el usuario 
+- **c. Podría presentar problemas de estabilidad para el sistema \***
+- d. Son dificiles de programar
+
+En un sistema con memoria virtual, un fallo de página se refiere a :
+
+- a. Un error en una página especifica 
+- b. Ocurre cuando un programa accede una página de memoria 
+- c. Es una referencia a una página equivocada 
+- **d. Es un acceso a una página que no está actualmente en memoria \***
+
+La CPU, después de recibir una interrupción de un dispositivo de E/S:
+
+- a. Se detiene durante un tiempo predeterminado
+- b. Entrega el control del bus de direcciones y del bus de datos al dispositivo de interrupción 
+- **c. Ejecuta inmediatamente a la rutina de servicio de interrupción \*** 
+- d. Ejecuta la rutina de servicio de interrupción después de completar la instrucción actual 
+- e. Ninguna de las anteriores 
+
+El objetivo principal de la existencia de las memorias caché es: 
+
+- a. Aumentar la capacidad de almacenamiento del sistema 
+- b. Permitir la ejecución de programas más grandes 
+- **c. Proporcionar mayor velocidad en el acceso a datos e instrucciones \***
+- d. Se requiere para soportar los registros del procesador 
+
+No es una función del segmento de pila o Stack Segment:
+
+- a. Almacenar la dirección de retorno (IP: instruction pointer) cuando se llama a una rutina
+- **b. Mejorar el tiempo de acceso a datos e instrucciones  \***
+- c. Almacenar el estado del procesador tras la llegada de una interrupción 
+- d. Apoyar el paso de parámetros entre procedimientos (retornos)
+
+¿Cuál de las siguientes aformaciones es cierta?
+
+- a. En C todas las variables siempre se pasan a las funciones por valor
+- b. Para pasar una estructura a una función hay que pasar un puntero a la estructura
+- c. Los vectores y las estructuras siempre se pasan a las funciones por referencia 
+- **d. Cuando se desea modificar un vector dentro de una función no es necesario el uso del operador de dirección \***
